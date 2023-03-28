@@ -10,3 +10,6 @@ th {
   margin: auto;
   border: 0.2rem solid #3b3b4f;
 }
+table {
+  border: none;
+}
