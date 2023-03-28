@@ -2,13 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Roboto+Slab&display=swap");
 
 body {
+  width: 100%;
+  height: 100vh;
   font-family: "Roboto Slab", serif;
   text-align: justify;
   text-align: center;
   background-image: linear-gradient(
     to right,
     rgb(255, 255, 255),
-    rgb(193, 185, 34)
+    rgb(45, 157, 8)
   );
 }
 
