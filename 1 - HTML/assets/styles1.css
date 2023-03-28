@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Roboto+Slab&display=swap");
+
+body {
+  font-family: "Roboto Slab", serif;
+  text-align: justify;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(230, 230, 89)
+  );
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-family: "Alkatra", cursive;
+}
+
+h2 {
+  padding-bottom: 0;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+}
