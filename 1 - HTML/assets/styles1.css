@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Roboto+Slab&display=swap");
 
 body {
-  width: 100%;
-  height: 100vh;
   font-family: "Roboto Slab", serif;
   text-align: justify;
   text-align: center;
@@ -28,4 +26,10 @@ h2 {
 footer {
   text-align: center;
   font-weight: bold;
+}
+
+p {
+  margin: auto;
+  padding-top: 0.5em;
+  width: 80em;
 }
