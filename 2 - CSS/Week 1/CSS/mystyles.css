@@ -2,7 +2,6 @@
 
 :root {
   /* colors */
-  --backgroundColor: orangered;
   --textColor: white;
 
   /* measuements */
@@ -57,6 +56,13 @@ h2 {
 ul {
   list-style: none;
   text-decoration: none;
+  position: relative;
+  right: auto;
+}
+
+a:-webkit-any-link {
+  color: var(--textColor);
+  text-decoration: none;
 }
 
 p {
@@ -83,7 +89,7 @@ a:link a:visited a:active {
 
 a:hover {
   text-decoration: none;
-  color: coral;
+  color: white;
   background-color: #888888;
   border-radius: 0.2em;
 }
