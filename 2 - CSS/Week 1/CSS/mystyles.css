@@ -101,15 +101,9 @@ a:hover {
 @media screen and (min-width: 992px) {
   section {
     flex-direction: row;
-    transition-property: flex-direction;
-    transition-timing-function: linear;
-    transition-duration: 1.5s;
   }
   section img {
-    min-width: 350px;
-    transition-property: min-width: 350px;
-    transition-timing-function: linear;
-    transition-duration: 1.5s;
+    min-width: 450px;
   }
   ul {
     font-size: var(--sizeMd);
@@ -122,8 +116,5 @@ a:hover {
     transition-property: var(--font-size);
     transition-timing-function: linear;
     transition-duration: 0.75s;
-  }
-  h2 {
-    flex-wrap: nowrap;
   }
 }
