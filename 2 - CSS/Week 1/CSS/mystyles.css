@@ -57,8 +57,6 @@ h2 {
 ul {
   list-style: none;
   text-decoration: none;
-  border: 0.5px solid rgb(190, 33, 33);
-  border-style: dashed;
 }
 
 p {
