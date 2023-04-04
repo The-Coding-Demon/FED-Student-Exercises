@@ -103,7 +103,8 @@ a:hover {
     flex-direction: row;
   }
   section img {
-    min-width: 450px;
+    min-width: 500px;
+    min-height: 350px;
   }
   ul {
     font-size: var(--sizeMd);
@@ -116,5 +117,11 @@ a:hover {
     transition-property: var(--font-size);
     transition-timing-function: linear;
     transition-duration: 0.75s;
+  }
+  h2 {
+    text-align: left;
+  }
+  p {
+    padding-left: var(--sizeSm);
   }
 }
