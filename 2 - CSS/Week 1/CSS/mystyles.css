@@ -8,8 +8,8 @@
   --sizeXs: 1.5rem;
   --sizeSm: calc(var(--sizeXs) * 1);
   --sizeMd: calc(var(--sizeSm) * 1.5);
-  --sizeLg: calc(var(--sizeMd) * 1.5);
-  --sizeXl: calc(var(--sizeLg) * 1.5);
+  --sizeLg: calc(var(--sizeMd) * 2);
+  --sizeXl: calc(var(--sizeLg) * 3);
 
   /* styles */
   --font-size: 16px;
@@ -22,6 +22,7 @@
   background: none;
   border: none;
   border-radius: none;
+  overflow-x: hidden;
 }
 
 body {
@@ -40,7 +41,10 @@ body {
 
 header {
   display: flex;
-  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--sizeMd);
 }
 
 h1 {
@@ -48,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--sizeLg);
+  font-size: 3.5em;
   color: var(--textColor);
   padding: var(--sizeXs);
 }
@@ -56,8 +60,7 @@ h2 {
 ul {
   list-style: none;
   text-decoration: none;
-  position: relative;
-  right: auto;
+  text-align: right;
 }
 
 a:-webkit-any-link {
@@ -69,6 +72,7 @@ p {
   font-size: var(--sizeXs);
   line-height: var(--sizemd);
   font-weight: var(--sizeXs);
+  text-align: justify;
 }
 
 section {
@@ -89,7 +93,20 @@ a:link a:visited a:active {
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: coral;
   background-color: #888888;
   border-radius: 0.2em;
 }
+
+/* FOR DESKTOPS */
+@media screen  and (min-width: 768px) {
+  {
+  
+
+
+
+  }
+
+
+
+
