@@ -53,6 +53,7 @@ h2 {
   font-size: 3.5em;
   color: var(--textColor);
   padding: var(--sizeXs);
+  font-style: normal;
 }
 
 ul {
