@@ -44,6 +44,10 @@ header {
   font-family: "Acme", sans-serif;
 }
 
+p {
+  padding: 0.2em;
+}
+
 a:-webkit-any-link {
   color: var(--TextColor);
   text-decoration: none;
@@ -63,7 +67,6 @@ a:hover {
   text-decoration: none;
   color: var(--SecondarytextColor);
   background-color: #888888;
-  padding: 0 10px;
   border-radius: 0.2em;
 }
 
@@ -141,4 +144,12 @@ footer {
   color: var(--TextColor);
   display: flex;
   justify-content: center;
+}
+
+.subheadingbackground {
+  background-image: linear-gradient(180deg, #978250, #fff);
+  border-radius: 75%;
+  display: flex;
+  justify-content: center;
+  padding: 0.2em;
 }
