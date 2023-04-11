@@ -1,0 +1,144 @@
+:root {
+  /* colors */
+  --MainBG: #d93015;
+  --SecondaryBG: #143571;
+  --AssetsColor: #978250;
+  --BackupColor: #fff;
+  --TextColor: #fff;
+  --OnwhiteTextColor: #000000;
+
+  /* measuements */
+  --sizeXs: 1em;
+  --sizeSm: calc(var(--sizeXs) * 1.25);
+  --sizeMd: calc(var(--sizeSm) * 1.5);
+  --sizeLg: calc(var(--sizeMd) * 1.75);
+  --sizeXl: calc(var(--sizeLg) * 2);
+}
+
+* {
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--BackupColor);
+  color: var(--OnwhiteTextColor);
+  padding: var(--sizeMd);
+}
+
+header {
+  background-color: var(--MainBG);
+  color: var(--TextColor);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sizeSm);
+  font-family: "Acme", sans-serif;
+}
+
+a:-webkit-any-link {
+  color: var(--TextColor);
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  text-decoration: none;
+  text-align: right;
+}
+
+a:link a:visited a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--SecondarytextColor);
+  background-color: #888888;
+  padding: 0 10px;
+  border-radius: 0.2em;
+}
+
+.logo {
+  max-height: 80px;
+  max-width: 80px;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: 3em;
+  font-size: 1.3em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  text-align: justify;
+  overflow-x: hidden;
+  justify-content: center;
+  padding: var(--sizeSm);
+}
+
+.evenbackground {
+  background-color: var(--MainBG);
+  color: var(--TextColor);
+  padding: var(--sizeSm);
+  border-radius: 0.5%;
+}
+
+.oddbackground {
+  background-color: var(--BackupColor);
+  color: var(--OnwhiteTextColor);
+  padding: var(--sizeSm);
+  border: 0.1px solid grey;
+  border-radius: 0.5%;
+}
+
+.pictures {
+  width: 800px;
+  height: 500px;
+  padding: var(--sizeSm);
+  display: flex;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+}
+
+.homepagepictures {
+  display: flex;
+  justify-content: center;
+}
+
+.oddh3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  background-color: var(--MainBG);
+  color: var(--TextColor);
+  display: flex;
+  justify-content: center;
+}
