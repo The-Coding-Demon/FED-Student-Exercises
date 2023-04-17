@@ -1,4 +1,4 @@
-//code to add two numbers together
+//*code to add two numbers together
 const sumpart1 = 436;
 const sumpart2 = 575;
 
